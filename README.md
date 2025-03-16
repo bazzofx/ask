@@ -1,6 +1,9 @@
 # A.S.K. – AI Script Kiddie (DeepSeek + Powershell)
 
-This project is a simple command-line application that queries the DeepSeek API to find the best PowerShell or Azure CLI cmdlet for a specific task. It interacts with the DeepSeek service to provide precise, verified, and high-quality cmdlets based on a user's query. The application is ideal for DevOps professionals, PowerShell users, and anyone working with Windows OS and related technologies.
+This project is a simple command-line application that queries the DeepSeek API to find the best PowerShell or Azure CLI cmdlet for a specific task.
+ It interacts with the DeepSeek service to provide the best answer straight into your terminal, so you don't need to keep going back and forth within your browser.
+ This is a quick project for the sole purpose of practicing compiling Go projects and also experimenting with the DeepSeek API. 
+ The application is ideal for DevOps professionals,users that are learning Powershell, and anyone working with Windows OS and related technologies.
 
 ## Table of Contents
 - Overview
@@ -25,6 +28,12 @@ To run this project, you need Go installed on your local machine.
 git clone https://github.com/your-username/deepseek-cmdlet-finder.git
 cd ask
 go build -o ask.exe
+```
+
+## Pre-compiled
+Simply add the **ask.exe** into your user paths and you can run it from the terminal by typing:
+```
+ask
 ```
 
 ## Usage
