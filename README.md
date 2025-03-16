@@ -51,3 +51,9 @@ The project uses the following Go packages:
 github.com/go-deepseek/deepseek: A Go client for interacting with the DeepSeek API.
 github.com/go-deepseek/deepseek/request: A Go package for making requests to the DeepSeek API.
 These dependencies are automatically included when you run go build.
+
+rsrc_windows_amd64.syso is the icon file compiled as a Windows Resource
+```
+go install github.com/akavel/rsrc@latest
+rsrc -ico icon.ico
+```

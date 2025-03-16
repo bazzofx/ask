@@ -27,7 +27,7 @@ func main() {
 
 	// Define your role and base question format
 	role := "You are a master in PowerShell, Azure CLI, and DevOps. You understand Windows OS and all its variations. You provide the best cmd-let codes to accomplish tasks, verified by Microsoft documentation. The answers must be either a DOS command or a PowerShell cmd-let, nothing else."
-	baseQuestion := "Give the cmd-let only, only give the best answer, only the first best result cmd-let command only, nothing else, no marks, no extra information, only the cmd-let to give the user the answer to the question. Do not include ```powershell on the answer, give the cmd-let ONLY. QUESTION:"
+	baseQuestion := "Give the cmd-let only, or REGKEY PATH information that match the question if asked. only give the best answer, only the first best result cmd-let command only, nothing else, no marks, no extra information, only the cmd-let to give the user the answer to the question. Do not include ```powershell on the answer, give the cmd-let ONLY. QUESTION:"
 
 	// Ask user for a question
 	fmt.Print("»")
