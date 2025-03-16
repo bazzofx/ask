@@ -24,6 +24,8 @@ Helps users find the best cmdlet for a given task in Windows OS, PowerShell, or 
 Installation
 To run this project, you need Go installed on your local machine.
 
+![screenShot1](/rsc/ss2.png)
+
 ## Build yourself:
 ```
 git clone https://github.com/your-username/deepseek-cmdlet-finder.git
