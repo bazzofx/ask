@@ -1,3 +1,4 @@
+![Banner](/rsc/banner.png)
 # A.S.K. – AI Script Kiddie (DeepSeek + Powershell)
 
 This project is a simple command-line application that queries the DeepSeek API to find the best PowerShell or Azure CLI cmdlet for a specific task.
@@ -22,6 +23,8 @@ Outputs only the cmdlet (no extra information).
 Helps users find the best cmdlet for a given task in Windows OS, PowerShell, or DevOps.
 Installation
 To run this project, you need Go installed on your local machine.
+
+![screenShot1](/rsc/ss2.png)
 
 ## Build yourself:
 ```
