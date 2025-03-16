@@ -53,9 +53,10 @@ Output:
 New-AzVm -ResourceGroupName "MyResourceGroup" -Name "MyVM" -Image "MicrosoftWindowsServer:WindowsServer:2019-Datacenter:latest" -VirtualNetworkName "MyVnet" -SubnetName "MySubnet" -PublicIpAddressName "MyPublicIp" -SecurityGroupName "MyNsg" -OpenPorts 80,3306 -AsJob -CustomData @' ##cloud-config package_update: true packages: - iis - mysql-server runcmd: - systemctl enable mysqld - systemctl start mysqld '@
 ```
 ## Environment Variables
-
 For the application to work you will need to have an DeepSeek API on your system variable called **apiDeepSeek**
-Please note you will also need to have some money on your account, API calls are not free lol, but $2.00 is enough to last you a long time.
+You can create a new API key from the official [DeepSeek website](https://api-docs.deepseek.com/)
+Please note you will also need to have some money on your account, API calls are not free lol, but $2.00 is enough to last you a very long time!! 
+Each responses are about 500-600 tokens and if we base on the [Deep Seek API Cost](https://api-docs.deepseek.com/quick_start/pricing/) of **$0.07** per **1 Million** tokens, we are talking about a long long time.
 
 ## Dependencies
 The project uses the following Go packages:
