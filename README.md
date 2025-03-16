@@ -1,3 +1,4 @@
+![Banner](/rsc/banner.png)
 # A.S.K. – AI Script Kiddie (DeepSeek + Powershell)
 
 This project is a simple command-line application that queries the DeepSeek API to find the best PowerShell or Azure CLI cmdlet for a specific task.
