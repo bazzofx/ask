@@ -60,12 +60,11 @@ Each responses are about 500-600 tokens and if we base on the [Deep Seek API Cos
 
 ## Dependencies
 The project uses the following Go packages:
+These dependencies are automatically included when you run go build below is informatie only.
 
-github.com/go-deepseek/deepseek: A Go client for interacting with the DeepSeek API.
-github.com/go-deepseek/deepseek/request: A Go package for making requests to the DeepSeek API.
-These dependencies are automatically included when you run go build.
-
-rsrc_windows_amd64.syso is the icon file compiled as a Windows Resource
+**github.com/go-deepseek/deepseek:** A Go client for interacting with the DeepSeek API.
+**github.com/go-deepseek/deepseek/request:** A Go package for making requests to the DeepSeek API.
+**rsrc_windows_amd64.syso** is the icon.ico file compiled as a Windows Resource as its not possible to compile direct .ico into windows binaries directly from GO.
 ```
 go install github.com/akavel/rsrc@latest
 rsrc -ico icon.ico
